@@ -1,0 +1,185 @@
+body
+{
+	background-color: #CEF4DB;
+}
+.maindiv
+{
+	background-color: #57DA83;
+	margin: 10%;
+	display:flex;
+	justify-content: space-around;
+	border-radius: 5%;
+}
+.leftdiv
+{
+	background-color: #1F6637;
+	margin: 4%;
+	width:20%;
+	height:25%;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px #D7DFE0;
+}
+.rightdiv
+{
+	background-color: #1F6637;
+	margin: 4%;
+	width:50%;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px;
+	padding:1%;
+}
+img
+{
+	height:140px;
+	width:140px;
+	margin:5%;
+	border-radius:5%;
+}
+p
+{
+	font-size:20px;
+	font-weight: initial;
+}
+
+/*
+.first{
+	border: 2px solid black;
+	border-width: 3px;
+	height: 500px;
+	width: 30%;
+	position: relative;
+	box-shadow:6px 6px 6px 6px;
+}
+
+.second{
+	border: 2px solid black;
+	border-width: 3px;
+	height: 500px;
+	width: 30%;
+	position: relative;
+	left: 55%;
+	top: -467px;
+	box-shadow:6px 6px 6px 6px;
+}
+
+.img{
+	position: relative;
+	left: 33%;
+	border: 2px solid black;
+	top: 30px;
+}
+
+.name{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+
+.email{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+
+.rlno{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+
+hr{
+	border: 1.5px solid black;
+}
+*/
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>card</title>
+	<link rel="stylesheet" href="C:\Users\Anjuma Nasreen\Desktop\react-appssdc\id2.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<div id="maindiv">
+		<div class="leftdiv">
+			<img src="C:\Users\Anjuma Nasreen\Desktop\5.jpg" alt="anju">
+			<h2>Anjuma Nasreen</h2>
+			<p>sanashaik179@gmail.com</p>
+			<p>8074131477</p>
+			<a href="C:\Users\Anjuma Nasreen\Desktop\N150069_Anjuma Nasreen.pdf">Resume</a>
+			<a href="https://github.com/">Github</a>
+			<a href="https://www.linkedin.com/feed/">Linkedin</a>
+		</div>
+
+		<div class="rightdiv">
+			<p></p>
+			<h2><center>Resume</center></h2>
+			<hr>
+			<p><u><b>Career objective</b></u></p>
+			<p>To pursue a career in the software industry as an efficient and dependable employee being resourceful to the organization and affable towards my colleagues. </p>
+			<p><b><u>Educational qualification</u></b></p>
+			<table border="1" cellpadding="10">
+				<tr>
+					<th>Degree</th>
+					<th>Board</th>
+					<th>Year</th>
+					<th>CGPA</th>
+					<th>Class</th>
+				</tr>
+				<tr>
+					<td>B.tech</td>
+					<td>RGUKT</td>
+					<td>2017-till now</td>
+					<td>8.6</td>
+					<td>distinction</td>
+				</tr>
+				<tr>
+					<td>PUC</td>
+					<td>RGUKT</td>
+					<td>2015-2017</td>
+					<td>7.53</td>
+					<td>First class</td>
+				</tr>
+				<tr>
+					<td>SSC</td>
+					<td>SSEMHS</td>
+					<td>2015</td>
+					<td>9.5</td>
+					<td>Distinction</td>
+				</tr>
+			</table>
+			<h1><u><b>Technical skills:</b></u></h1>
+			<ul>
+				<li>Programming Languages:PYTHON,C(basics)</li>
+				<li>Web Languages:HTML,CSS,JavaScript,PHP(Learner) </li>
+				<li>Database:MYSQL</li>
+				<li>Tools and Packages:MS-Office</li>
+				<li>Operating System:Windows7/8/8.1/10,Linux(Zorin,Ubuntu)</li>
+			</ul>
+			<h1><u><b>Hobbies:</b></u></h4>
+			<ul>
+				<li>Sleeping</li>
+				<li>Eating</li>
+			</ul>
+			<h1><b>Declaration:</b></h1>
+			<p>I , Anjuma Nasreen hereby declare that the above mentioned information is corrected up to my knowledge and belief, I bear the responsibility for the correctness of the above mentioned particulars.</p>
+			
+		</div>
+	</div>
+	
+</body>
+</html>
+

@@ -1,0 +1,103 @@
+body
+{
+	background-color: #ABC2C4;
+}
+#parent
+{
+	background-color: #77989C;
+	margin: 10%;
+	display:flex;
+	justify-content: space-around;
+	border-radius: 5%;
+	/*padding:4%;*/
+}
+.child
+{
+	background-color: #40949C;
+	margin: 4%;
+	width:25%;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px #D7DFE0;
+}
+.child1
+{
+	background-color: #40949C;
+	margin: 4%;
+	width:25%;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 4px 4px 4px 4px #D7DFE0;
+}
+img
+{
+	height:140px;
+	width:140px;
+	margin:5%;
+	border-radius:5%;
+}
+p
+{
+	font-size:25px;
+	font-weight: initial;
+}
+
+/*
+.first{
+	border: 2px solid black;
+	border-width: 3px;
+	height: 500px;
+	width: 30%;
+	position: relative;
+	box-shadow:6px 6px 6px 6px;
+}
+
+.second{
+	border: 2px solid black;
+	border-width: 3px;
+	height: 500px;
+	width: 30%;
+	position: relative;
+	left: 55%;
+	top: -467px;
+	box-shadow:6px 6px 6px 6px;
+}
+
+.img{
+	position: relative;
+	left: 33%;
+	border: 2px solid black;
+	top: 30px;
+}
+
+.name{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+
+.email{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+
+.rlno{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+
+hr{
+	border: 1.5px solid black;
+}
+*/
